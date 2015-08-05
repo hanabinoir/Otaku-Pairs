@@ -1,0 +1,63 @@
+div#tip{
+	width:auto;
+	height:180px;
+}
+
+div#board{
+	float:left;
+	margin:0px auto;
+	padding:5px;
+	margin-left:20px;
+}
+
+div#title{
+	text-align:center;
+	border:1px solid;
+	width:440px;
+	height:440px;
+	margin-top:10px;
+	margin-left:30%;
+}
+
+div#bgaudio{
+	margin-left:30%;
+	margin-top:10px;
+}
+
+.title div{
+	text-align:center;
+	margin-top:20px;
+}
+.title p{
+	font-family:calibri;
+}
+
+div#left{
+	float:left;
+	width:auto;
+	height:440px;
+	margin-left:10px;
+}
+
+div#right{
+	float:left;
+	width:auto;
+	height:440px;
+	margin-left:20px;
+}
+
+table.ctrl_panel{
+	text-align:center;
+	width:auto;
+	height:400px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+img.card{
+	border:1px solid;
+	width:95px;
+	height:140px;
+	float:left;
+	margin:5px;
+}

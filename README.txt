@@ -1,3 +1,7 @@
+TITLE: Otaku-Pairs
+CREATED BY: Yang Shen 300208909, Juyong Cheng 300204413
+DATE: 2015-08-05
+
 FILES AND FOLDERS
 
 1.game.html:

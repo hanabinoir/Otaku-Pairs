@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="author" content="Yang Shen 300208909, Juzhong Cheng 300204413">
-<meta name="date" content="2015-08-05" scheme="YYYY-MM-DD">
-<link rel="stylesheet" type="text/css" href="layout.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="main.js"></script>
-<script src="media.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
-<div id="bgaudio">
-<audio id="tracks" controls autoplay="true">
-<source id="track" type="audio/mp3">
-</audio>
-</div>
-<div class="board" id="board">
-<div id="left"></div>
-<div id="right"></div>
-</div>
-<div class="title" id="title">
-</div>
+    <div id="bgm" class="bgm">BGM</div>
+    <div id="title" class="title">
+        <p class="title-head"><img src="Images/title.jpg"></p>
+        <p><button id="start" onclick="load_game()"><img src="Images/start.jpg"></button></p>
+        <p><button id="intro"><img src="Images/intro.jpg"></button></p>
+    </div>
+    <div id="main" class="main">
+        <div class="control_panel">Controls</div>
+        <div class="game-board">
+            <table class="game-board"></table>
+        </div>
+    </div>
 </body>
 </html>

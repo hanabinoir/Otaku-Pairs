@@ -11,9 +11,6 @@ The html file for users to play the game.
 Includes the javascript functions which work with layouts, threads, controls and game play.
 The functions allows users to play, re-play, reset, and cheat in game.
 
-3.media.js:
-Includes the functions that load audio and images.
-
 4.layout.css:
 Manage the style of the layouts.
 

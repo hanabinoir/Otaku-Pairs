@@ -1,63 +1,24 @@
-div#tip{
-	width:auto;
-	height:180px;
+body {
+	display: block;
 }
 
-div#board{
-	float:left;
-	margin:0px auto;
-	padding:5px;
-	margin-left:20px;
+div {
+    display: block;
+    margin: auto;
 }
 
-div#title{
-	text-align:center;
-	border:1px solid;
-	width:440px;
-	height:440px;
-	margin-top:10px;
-	margin-left:30%;
+td {
+    padding: 5px;
+    border: solid 1px;
 }
 
-div#bgaudio{
-	margin-left:30%;
-	margin-top:10px;
+div.control_panel, .game-board {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: center;
 }
 
-.title div{
-	text-align:center;
-	margin-top:20px;
-}
-.title p{
-	font-family:calibri;
-}
-
-div#left{
-	float:left;
-	width:auto;
-	height:440px;
-	margin-left:10px;
-}
-
-div#right{
-	float:left;
-	width:auto;
-	height:440px;
-	margin-left:20px;
-}
-
-table.ctrl_panel{
-	text-align:center;
-	width:auto;
-	height:400px;
-	margin-top:20px;
-	margin-bottom:20px;
-}
-
-img.card{
-	border:1px solid;
-	width:95px;
-	height:140px;
-	float:left;
-	margin:5px;
+div.title p {
+    text-align: center;
 }

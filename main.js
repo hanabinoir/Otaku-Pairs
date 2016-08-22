@@ -16,7 +16,7 @@ function shuffle(a) {
     return a
 }
 
-function load_cards() {
+function create_pairs() {
     var all_cards = [];
     var pairs = [];
     //choose the cards to load
@@ -33,22 +33,21 @@ function load_cards() {
     return pairs
 }
 
-function load_game() {
-    var cards = load_cards();
+function load_table() {
     $("#title").css('display','none');
     $("#main").css('display','block');
-
+    var game_board_table = $("table.game-board");
+    var cards = create_pairs();
     for(var i=0; i<3; i++){
-        $("table.game-board").append($("<tr></tr>"))
-    }
-
-    for(var j=0; j<8; j++){
-        var card_index = (i+1) * (j+1);
-        $("table.game-board tr").append($(
-            "<td>" +
-            "<img src='Images/card_bk.jpg' onclick='turn_card(this, \"" + cards[card_index] + "\")'>" +
-            "</td>"
-        ));
+        game_board_table.append($("<tr>"));
+        for(var j=0; j<8; j++){
+            var card_index = ((i+1)*(j+1)-1);
+            game_board_table.append($(
+                "<td>" +
+                "<img src='Images/card_bk.jpg' onclick='turn_card(this, \"" + cards[card_index] + "\")'>" +
+                "</td>"
+            ));
+        }
     }
 }
 
